@@ -1,0 +1,24 @@
+{
+  "name": "popify-server",
+  "version": "1.0.0",
+  "description": "Corporation Pop tech test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node listen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-wray-dev/popify-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-wray-dev/popify-server/issues"
+  },
+  "homepage": "https://github.com/chris-wray-dev/popify-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
