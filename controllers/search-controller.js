@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 exports.searchSpotify = (req, res, next) => {
-  const { auth } = req;
+  const { auth, query } = req;
 
   const requestOptions = {
     headers: {
@@ -10,8 +10,7 @@ exports.searchSpotify = (req, res, next) => {
       "Content-Type": 'application/json',
     },
     params: {
-      q: "Billy",
-      type: "album"
+      ...query
     }
   }
 
