@@ -19,7 +19,7 @@ exports.searchSpotify = (req, res, next) => {
       res.status(200).send(results.data);
     })
     .catch(err => {
-      console.log(err)
+      console.log("Error: ", err.response.status)
     })
 
 }
