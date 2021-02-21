@@ -2,6 +2,18 @@
 
 1.  Clone the repo onto your local machine using command line "git clone https://github.com/chris-wray-dev/popify-server"
 2.  CD into the popify-server directory and run command "npm install".
+3.  You will need to provide credentials to access the Spotify API.  Create a directory on the project root called 'credentials'.  In there create an index.js file with the following code...
+
+```javascript
+
+const credentials = {
+  CLIENT_ID: "YOUR CLIENT_ID",
+  CLIENT_SECRET: "YOUR CLIENT_SECRET"
+}
+
+module.exports = { credentials }
+
+```
 3.  Once the node packages are install you can spin the server up by entering 'npm start' at the command line.
 
 ## Synopsis
