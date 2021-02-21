@@ -14,7 +14,7 @@ const credentials = {
 module.exports = { credentials }
 
 ```
-3.  Once the node packages are install you can spin the server up by entering 'npm start' at the command line.
+4.  Once the node packages are install you can spin the server up by entering 'npm start' at the command line.
 
 ## Synopsis
 
